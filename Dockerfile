@@ -5,7 +5,7 @@ WORKDIR /go/src/app
 #WORKDIR /app
 
 #COPY go.mod go.sum ./
-COPY . .
+COPY catgpt .
 
 RUN go mod download
 
